@@ -1,7 +1,7 @@
 import { Api } from "./api.js";
 import { View } from "./view.js";
 export const Model = ((api, view) => {
-  const { getCourses } = api;
+  const { getCourses, selectCourse } = api;
   class State {
     #courseList = [];
 
@@ -19,6 +19,7 @@ export const Model = ((api, view) => {
 
   return {
     getCourses,
+    selectCourse,
     State,
   };
 })(Api, View);

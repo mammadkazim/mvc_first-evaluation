@@ -48,6 +48,7 @@ main .container .courses-container {
 main .container .courses-container li {
   border: 1px solid black;
   font-size: 14px;
+  padding: 4px 0;
 }
 main .container .courses-container li:nth-child(2n+1) {
   background-color: #DCEEDC;

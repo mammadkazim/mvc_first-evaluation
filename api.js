@@ -6,7 +6,7 @@ export const Api = (() => {
     const getCourses = () => {
       return fetch([baseUrl, coursesPath].join("/")).then((response) =>
         response.json()
-      ).then(console.log);
+      )
     };
   
     // const deleteCourses = (id) => {
